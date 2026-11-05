@@ -1,0 +1,79 @@
+{
+  "description": "A short stand-in for a morning of RLC-810WA recordings.",
+  "clips": [
+    {
+      "file": "backyard/2026-11-03_10-00-00.mp4",
+      "camera": "Backyard",
+      "clock": "10:00:00",
+      "events": [
+        {
+          "at": 8.0,
+          "label": "large-dog volley",
+          "expect": "bark"
+        },
+        {
+          "at": 28.0,
+          "label": "door",
+          "expect": "ignore"
+        },
+        {
+          "at": 40.0,
+          "label": "talking",
+          "expect": "ignore"
+        },
+        {
+          "at": 62.0,
+          "label": "small-dog yips",
+          "expect": "bark"
+        },
+        {
+          "at": 85.0,
+          "label": "rain",
+          "expect": "ignore"
+        },
+        {
+          "at": 100.0,
+          "label": "single bark",
+          "expect": "bark"
+        },
+        {
+          "at": 112.0,
+          "label": "bird",
+          "expect": "ignore"
+        }
+      ]
+    },
+    {
+      "file": "hallway/2026-11-03_10-01-30.mp4",
+      "camera": "Hallway",
+      "clock": "10:01:30",
+      "events": [
+        {
+          "at": 12.0,
+          "label": "two barks",
+          "expect": "bark"
+        },
+        {
+          "at": 35.0,
+          "label": "hum",
+          "expect": "ignore"
+        },
+        {
+          "at": 48.0,
+          "label": "muffled bark",
+          "expect": "bark"
+        },
+        {
+          "at": 55.0,
+          "label": "knocks",
+          "expect": "ignore"
+        },
+        {
+          "at": 70.0,
+          "label": "howl",
+          "expect": "howl"
+        }
+      ]
+    }
+  ]
+}
